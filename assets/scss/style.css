@@ -1885,4 +1885,18 @@ section {
   transition: transform 0.1s;
 }
 
+.custom-more {
+  background: none;
+  border: none;
+  color: #E62217;  /* Ändert die Farbe beim Überfahren mit der Maus */
+  cursor: pointer;
+  font-size: 1rem; /* Ihre Wunschgröße */
+  padding: 0; /* Entfernt das Standard-Padding */
+}
+
+.custom-more:hover {
+  text-decoration: underline; /* Optional: unterstreicht den Text beim Hover */
+}
+
+
 /*# sourceMappingURL=style.css.map */

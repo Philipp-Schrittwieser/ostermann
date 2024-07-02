@@ -851,6 +851,9 @@
               <div class="member-info">
                 <h4>Mag. pharm. Gabriele Ostermann</h4>
                 <span>Geschäftsführerin, Coach, Trainerin</span>
+                <button type="button" class="custom-more" data-toggle="modal" data-target="#modalGabriele">
+                  Mehr erfahren
+                </button>                
               </div>
             </div>
           </div>
@@ -929,10 +932,35 @@
             </div>
           </div>
 
+      
+          
         </div>
 
+
       </div>
+
+     
     </section><!-- End Team Section -->
+
+    <!-- Das Modal für Gabriele Ostermann -->
+    <div class="modal fade" id="modalGabriele" tabindex="-1" role="dialog" aria-labelledby="modalGabrieleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalGabrieleTitle">Mag. pharm. Gabriele Ostermann</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Mag. pharm. Gabriele Ostermann ist eine erfahrene Trainerin, Coach und Beraterin, die ihre langjährige Expertise aus dem Management in internationalen Großkonzernen nun in der Trainings- und Personalentwicklungsbranche einsetzt1. Nach ihrem Pharmaziestudium an der Universität Wien begann sie ihre Karriere als Apothekerin und entdeckte dabei ihre Leidenschaft für Kommunikation, Verkauf und das tiefe Interesse an Menschen und ihren Werten. Später wechselte sie in die Medizintechnikbranche, wo sie als Leiterin der Marketing- und Öffentlichkeitsabteilung tätig war. In ihrer 9-jährigen Managementkarriere bei verschiedenen pharmazeutischen Großkonzernen trug sie als Mitglied des Management Boards strategische und kommerzielle Verantwortung für Bereiche wie Marketing, Launch Excellence, Medical und Sales Management, Market Access, Patient Relations und Öffentlichkeitsarbeit. Um ihre Führungskompetenzen weiter auszubauen, absolvierte sie Ausbildungen zur zertifizierten Fachtrainerin für Erwachsenenbildung, Coach und Mentaltrainerin und erwarb Lizenzen im Bereich der Persönlichkeitstypologien. Heute unterstützt sie Führungskräfte und deren Teams in den Bereichen Führung, Verkauf, Kommunikation, Change- und Konfliktmanagement, Projektmanagement, Teamcoachings und – entwicklungen sowie Strategie, Entwicklung von Visionen, Werten und Leitbildern. Ihre Tätigkeitsschwerpunkte umfassen Seminare, Trainings, Workshops, Individual- und Teamcoachings, Moderation von Workshops und Veranstaltungen sowie Marketing- und Launch Excellence und KI-Workshops. Ihr Motto lautet: „Evolution lässt sich nicht Zeit, sondern nutzt sie.“</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -1111,9 +1139,15 @@ function closePopup() {
 
   // Popup wird 3 Sekunden nach dem Laden der Seite gezeigt:
   window.onload = function() {
-    setTimeout(openPopup, 20000);
+    // setTimeout(openPopup, 20000);
   };
 </script>
+
+<!-- Add the following Bootstrap JS and jQuery just before the closing </body> tag -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
   
 </body>
